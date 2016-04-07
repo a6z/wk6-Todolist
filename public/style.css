@@ -1,0 +1,102 @@
+body {
+	width: 100%;
+	margin: 2% 0 0 0;
+	/*文字位置*/
+	text-align:center;
+}
+/*整個頁面框架*/
+	.layout {
+	  clear: both;
+	  min-height: 100%;
+	  height: auto !important;
+	  height: 100%;
+	  margin: 2% 5% 5% 5%;
+		}
+	/*表單*/
+		body li{
+			padding: 5px 5px 5px 5px;
+			position: relative;
+			list-style: none none outside;
+		}
+/*標題*/
+	.page-title {
+		margin-top: 2%;
+    color: #6b94bd;
+    background-color: #dbe5f0;
+    font-size: 30px;
+    line-height: 1.35;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 0 1px 1px #b0c4de;
+}
+/*表單區塊*/
+	.list {
+    width: 283px;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+}
+/*輸入區塊*/
+	.item-new {
+		margin: auto;
+		width: 250px;
+    padding: 10px 3px 5px 3px;
+		background-color: #ecf5ff;
+		border-radius: 6px 6px 6px 6px;
+}
+/*輸入欄*/
+.input {
+	border: 1px solid #BDDEFF;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	color: #C4E1E1;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 15px;
+	width: 200px;
+	margin: 1px 1px 1px 1px;
+	border-radius: 5px 5px 5px 5px;
+}
+/*遞交按鈕*/
+.submit {
+	margin: 5px;
+	border: solid #1f628d 0px;
+  border-radius: 60px;
+  text-shadow: 1px 1px 6px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  background: #b9ccdf;
+  text-decoration: none;
+}
+.submit:hover {
+	background: #bedae9;
+  text-decoration: none;
+}
+
+.name {
+	width: inherit;
+	height: inherit;
+	color: #85a6c7;
+  font-size: 20px;
+	margin: 5px;
+	text-shadow: 1px 1px 1px 	#F0F0F0;
+}
+
+.content {
+	color: #cad1d8;
+  font-size: 15px;
+	margin: 5px;
+	text-shadow: 1px 1px 1px 	#F0F0F0;
+}
+
+footer{
+	padding: 5px;
+	text-align:left;
+	font-size: 15px;
+	margin-bottom: 0%;
+	height: auto;
+	width: auto;
+	color: white;
+	background-color: #dbe5f0;
+}

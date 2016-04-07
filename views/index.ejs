@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<link href="assets/style.css" rel="stylesheet" />
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
+		<title>Connet me!</title>
+	</head>
+	<body>
+		<div class="page-title">Leave a message</div>
+		<div class="layout">
+		<div class="list">
+		<form method="POST" action="/person">
+			<div class="item-new">
+			<input class="input" type="text" name="name" placeholder="type your name" /><br />
+			<input class="input" type="text" name="content" placeholder="type message" /><br />
+			<div id="btn">
+				<input class="submit" type="submit" value=":)" />
+		</div>
+		</div>
+		</form>
+		</div>
+
+		<HR color="#D2E9FF" size="1">
+
+		<div class="list">
+		<% if (userinfos.length) { %>
+
+  		  <% userinfos.forEach(function(userinfo){ %>
+					<li>
+					<div class=name><%= userinfo['name'] %><br /></div>
+					<div class=content><%= userinfo['content'] %></div>
+					</li>
+					<HR color="#D2E9FF" size="1">
+		    <% }) %>
+		<% } %>
+		</div>
+		</div>
+	</body>
+	<footer>
+		<h>Credit By A6Z</h>
+	</footer>
+</html>
